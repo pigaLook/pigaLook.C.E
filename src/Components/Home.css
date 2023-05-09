@@ -1,0 +1,98 @@
+.Home{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.selectionSection{
+    display: flex;
+    flex-direction: row;
+    height: 8vh;
+    background-color: chartreuse;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 9cm;
+}
+.productsContainer{
+    background-color: coral;
+    height: 82%;
+    width: 100%;
+    align-self: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    position: fixed;
+    align-items: center;
+    overflow-y: scroll;
+    margin-top: 1.65cm;
+}
+.productItem{
+    height: 5cm;
+    width: 4cm;
+    background-color: gray;
+    border: 5px solid white;
+    margin: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.previewSelectedProduct{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 81vh;
+    background-color: white;
+}
+.previewedProductImage{
+    height: 70%;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+
+    overflow-y: scroll;
+}
+.moreInfo{
+    height: 5cm;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: aqua;
+}
+span{
+    height: 5vh;
+    background-color: aqua;
+    width: 100vw;
+    font-size: 32px;
+    cursor: pointer;
+}
+#previewedProductImage{
+    height: 7cm;
+    width: 10cm;
+    background-color: blue;
+    border: 3px solid black;
+    margin: 10px;
+}
+.addTocart{
+    height: 15vh;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.addTocart button{
+    height: 1cm;
+    width: 5cm;
+    cursor: pointer;
+    font-size: large;
+}
+#space{
+    margin-top: 10vh;
+}

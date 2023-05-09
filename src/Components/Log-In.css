@@ -1,0 +1,25 @@
+.LoginPage{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginContainer{
+    height: 10cm;
+    width: 9cm;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.loginContainer input{
+    height: 1cm;
+    font-size: 16px;
+    border: 3px solid;
+}
+.loginContainer input:focus{
+    outline: none;
+}

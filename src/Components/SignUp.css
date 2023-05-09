@@ -1,0 +1,37 @@
+.SignUpPage{
+    height: 100vh;
+    width: 100vw;
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SignUpContainer{
+    height: 90vh;
+    width: 90vw;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SignUpForm{
+    height: 50vh;
+    background-color: gray;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.SignUpForm input{
+    height: 1cm;
+    border: 2px solid;
+    font-size:  16px;
+}
+.SignUpForm input:focus{
+    outline: 0;
+}
+#error{
+    color: red;
+    text-align: center;
+}

@@ -1,0 +1,86 @@
+.Header{
+    height: 10vh;
+    width: 100vw;
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+}
+.otherHeader{
+    height: 10vh;
+    width: 100vw;
+    background-color: darkslategray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    margin-bottom: 10vh;
+}
+.otherHeader span{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+    cursor: pointer;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.cartAndMenu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+#cart{
+    width: 50%;
+}
+#float{
+    position: relative;
+    bottom: 10px;
+}
+#menuSpan{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+#overlay{
+    position: absolute;
+    top: 50px; /* 25% from the top */
+    width: 5cm; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px;
+    background-color: white;
+    z-index: 1;
+    float: right;
+    right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#close{
+    margin-left: 90%;
+    color: brown;
+    cursor: pointer;
+}
+.overlay{
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+    z-index: 1;
+    width: 100%;
+}
+ul{
+    background-color: antiquewhite;
+    width: 100%;
+}
+li{
+    width: 100%;
+    background-color: white;
+    cursor: pointer;
+}
+li p{
+    font-size: large;
+}

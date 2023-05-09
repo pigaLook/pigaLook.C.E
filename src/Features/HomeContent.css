@@ -1,0 +1,27 @@
+#img{
+    height: 70%;
+    width: 90%;
+}
+.productNamePrice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.HomeContentCont{
+    height: 70%;
+    
+    width: 100%;
+}
+#pd{
+    height: 15%;
+    width: 100%;
+}
+.addToCart{
+    display: flex;
+    justify-content: space-evenly;
+}
+.viewProductContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

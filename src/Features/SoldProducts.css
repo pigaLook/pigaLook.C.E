@@ -1,0 +1,27 @@
+.soldProduct{
+    height: 77vh;
+    width: 100%;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+}
+.ProductSold{
+    height: 77vh;
+}
+.allSoldProducts{
+    height: 77vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    background-color: chocolate;
+}
+.productImage{
+    height: 2cm;
+    width: 80vw;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid black;
+    margin: 10px;
+}
